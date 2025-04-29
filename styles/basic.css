@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Uncial Antiqua', cursive;
+  background-color: #ffffff;
+  color: #000000;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 800px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #000000;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+button {
+  font-family: 'Uncial Antiqua', cursive;
+  font-size: 1rem;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #333333;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #555555;
+}
+
+main {
+  background: #ffffff;
+  padding: 20px;
+  max-width: 800px;
+  width: 100%;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #000000;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p#prayer-text {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+p:last-child {
+  margin-top: 20px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 1px solid #333333;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #555555;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+    margin: 5px;
+  }
+
+  main {
+    padding: 15px;
+  }
+}
