@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Cinzel', serif;
-  background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+  background-image: url('../data/background.webp');
   background-color: #f4e4bc;
   /* Parchment beige */
   color: #2c1b07;
