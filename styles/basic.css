@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&display=swap');
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Uncial Antiqua', cursive;
+  /* font-family: 'Uncial Antiqua', cursive; */
   background-color: #ffffff;
   color: #000000;
   line-height: 1.6;
@@ -35,7 +35,7 @@ nav {
 }
 
 button {
-  font-family: 'Uncial Antiqua', cursive;
+  font-family: 'Cormorant Unicase', cursive;
   font-size: 1rem;
   padding: 10px 20px;
   margin: 0 10px;

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&display=swap');
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Cinzel', serif;
+  font-family: 'Cormorant Unicase', serif;
   background-image: url('../data/background.webp');
   background-color: #f4e4bc;
   /* Parchment beige */
